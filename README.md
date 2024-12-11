@@ -28,6 +28,11 @@ Supporting information
 
 S5W2.7 --> maxT = 4.28912 K
 
+S7W4 --> maxT = 4.006 K
+
+S11W6 --> maxT = 4.49562 K
+
+S18W11 -->  maxT = 4.5 K
 
 <table>
   <tr>
@@ -63,32 +68,36 @@ S5W2.7 --> maxT = 4.28912 K
     <td>✖️</td>
     <td>✖️</td>
     <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>🔴</td>
   </tr>
   <tr>
     <td>S11W6</td>
     <td>✖️</td>
     <td>✖️</td>
     <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>🔴</td>
+    <td>🔴</td>
+    <td>✔️</td>
+    <td>🔴️</td>
+    <td>🔴️</td>
   </tr>
   <tr>
     <td>S18W11</td>
     <td>✖️</td>
     <td>✖️</td>
     <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>🔴️</td>
+    <td>🔴️️</td>
+    <td>✔️</td>
+    <td>🔴️</td>
+    <td>🔴️</td>
   </tr>
 </table>
+
+
+
+.
