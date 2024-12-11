@@ -26,12 +26,15 @@ Supporting information
 <span style="color:#b0b9e8;">20 db inside</span> 
 
 
+S5W2.7 --> maxT = 4.28912 K
+
+
 <table>
   <tr>
     <th rowspan="2"> </th>
-    <th colspan="2" style="padding-right: 20px;">-30 <br/> <span style="color:#8BC34A;">Range 1</span></th>
-    <th colspan="1" style="padding-right: 20px;">-30 <br/> <span style="color:#FFC107;">Range 2</span></th>
-    <th colspan="1" style="padding-right: 20px;">-20 <br/> <span style="color:#FF9800;">Range 3</span></th>
+    <th colspan="2" style="padding-right: 20px;"> 10 - 200 mK <br/> <span style="color:#8BC34A;">Range 1</span></th>
+    <th colspan="1" style="padding-right: 20px;"> 200 - 1200 mK <br/> <span style="color:#FFC107;">Range 2</span></th>
+    <th colspan="1" style="padding-right: 20px;"> 1.2 - 1.7 K <br/> <span style="color:#FF9800;">Range 3</span></th>
     <th colspan="4">1.7 - 6 K <br/> <span style="color:#F44336;">Range 4</span></th>
   </tr>
   <tr>
@@ -50,10 +53,10 @@ Supporting information
     <td>✖️</td>
     <td>✖️</td>
     <td>✔️️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>🔴</td>
+    <td>🍋</td>
+    <td>🍋</td>
+    <td>🍋</td>
   </tr>
   <tr>
     <td>S7W4</td>
