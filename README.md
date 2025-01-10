@@ -65,9 +65,9 @@ S18W11 -->  maxT = 4.5 K
   </tr>
   <tr>
     <td>S7W4</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>✔️</td>
+    <td>🔴</td>
+    <td>✔️</td>
     <td>🔴</td>
     <td>🔴</td>
     <td>✔️</td>
@@ -76,9 +76,9 @@ S18W11 -->  maxT = 4.5 K
   </tr>
   <tr>
     <td>S11W6</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>✔️</td>
+    <td>🔴</td>
+    <td>✔️</td>
     <td>🔴</td>
     <td>🔴</td>
     <td>✔️</td>
@@ -87,9 +87,9 @@ S18W11 -->  maxT = 4.5 K
   </tr>
   <tr>
     <td>S18W11</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>🔴️</td>
+    <td>✔️️</td>
+    <td>✔️</td>
     <td>🔴️</td>
     <td>🔴️️</td>
     <td>✔️</td>
