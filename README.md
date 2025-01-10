@@ -17,6 +17,7 @@ Supporting information
 | Measurement                                                     | S5W2.7 | S7W4 | S11W6 | S18W11   |
 |-----------------------------------------------------------------|--------|------|-------|----------|
 | high power<br/><span style="color:#b0b9e8;">20 db inside</span> | ✖️     | ✖️   | ✖️    | ️   ✖️   |
+| full bandwidth sweep                                            | ✖️     | ✖️   | ✖️    | ️   ✖️   |
 
 
 
