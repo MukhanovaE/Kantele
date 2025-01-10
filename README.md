@@ -54,9 +54,9 @@ S18W11 -->  maxT = 4.5 K
   </tr>
   <tr>
     <td>S5W2.7</td>
-    <td>✖️</td>
-    <td>✖️</td>
-    <td>✖️</td>
+    <td>✔️</td>
+    <td>✔️</td>
+    <td>✔️</td>
     <td>✔️️</td>
     <td>🔴</td>
     <td>🍋</td>
