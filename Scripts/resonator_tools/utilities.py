@@ -23,24 +23,40 @@ class plotting(object):
 		imag = self.z_data_raw.imag
 		real2 = self.z_data_sim.real
 		imag2 = self.z_data_sim.imag
-		fig, ax = plt.subplots(nrows=1, ncols=3, figsize=(15, 5))
+
+		fig, ax = plt.subplots(nrows=1, ncols=3, figsize=(18, 6))
+
+		# Labels for enumeration
+		labels = ['(a)', '(b)', '(c)']
+		positions = [(-0.20, 0.95)] * 3  # Position for top-left corner
+
 		ax[0].plot(real, imag, label='rawdata')
 		ax[0].plot(real2, imag2, label='fit')
 		ax[0].set_xlabel('Re(S21)')
 		ax[0].set_ylabel('Im(S21)')
 		ax[0].legend()
-		ax[1].plot(self.f_data*1e-9,np.absolute(self.z_data_raw),label='rawdata')
-		ax[1].plot(self.f_data*1e-9,np.absolute(self.z_data_sim),label='fit')
+		ax[0].set_aspect('equal')  # Make square
+		ax[0].text(*positions[0], labels[0], transform=ax[0].transAxes, fontsize=14)
+
+		ax[1].plot(self.f_data * 1e-9, np.absolute(self.z_data_raw), label='rawdata')
+		ax[1].plot(self.f_data * 1e-9, np.absolute(self.z_data_sim), label='fit')
 		ax[1].set_xlabel('f (GHz)')
 		ax[1].set_ylabel('|S21|')
 		ax[1].legend()
-		ax[2].plot(self.f_data*1e-9,np.angle(self.z_data_raw),label='rawdata')
-		ax[2].plot(self.f_data*1e-9,np.angle(self.z_data_sim),label='fit')
+		ax[1].set_aspect(1.0 / ax[1].get_data_ratio())  # Keep reasonable proportions
+		ax[1].text(*positions[1], labels[1], transform=ax[1].transAxes, fontsize=14)
+
+		ax[2].plot(self.f_data * 1e-9, np.angle(self.z_data_raw), label='rawdata')
+		ax[2].plot(self.f_data * 1e-9, np.angle(self.z_data_sim), label='fit')
 		ax[2].set_xlabel('f (GHz)')
 		ax[2].set_ylabel('arg(|S21|)')
 		ax[2].legend()
+		ax[2].set_aspect(1.0 / ax[2].get_data_ratio())  # Keep reasonable proportions
+		ax[2].text(*positions[2], labels[2], transform=ax[2].transAxes, fontsize=14)
+
+		plt.subplots_adjust(wspace=0.25)  # Increase spacing between plots
 		plt.show()
-		
+
 	def plotcalibrateddata(self):
 		real = self.z_data.real
 		imag = self.z_data.imag
